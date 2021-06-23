@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="bms.selenium.Test_Execution">
+        <methods>
+          <include name="priceSelector"/>
+          <include name="signUp"/>
+          <include name="signUpUsingGoogle"/>
+          <include name="switchWindow"/>
+          <include name="rangeSelector"/>
+          <include name="sports"/>
+          <include name="openBrowser"/>
+          <include name="setup"/>
+          <include name="saveEventData"/>
+          <include name="signUpNCR"/>
+          <include name="moviesData"/>
+          <include name="weekendSelector"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- bms.selenium.Test_Execution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
