@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,12 +102,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bms.selenium.Test_Execution" hash-for-method="moviesData">moviesData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bms.selenium.Test_Execution" hash-for-method="saveEventData">saveEventData</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bms.selenium.sportsNameCollectionTest" hash-for-method="clickAllLinks">clickAllLinks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -119,6 +114,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bms.selenium.Test_Execution" hash-for-method="moviesData">moviesData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="bms.selenium.Test_Execution" hash-for-method="openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)">openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)</a> <!-- method navigator-link -->
@@ -179,63 +179,30 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">bms.selenium.Test_Execution</span>
+              <span class="class-name">bms.selenium.sportsNameCollectionTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="moviesData">
-                  </a> <!-- moviesData -->
-                  <span class="method-name">moviesData</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;super-container&apos;]/div[2]/header/div[2]/div/div/div/div[1]/div/a[1]&quot;}
+                  <a name="clickAllLinks">
+                  </a> <!-- clickAllLinks -->
+                  <span class="method-name">clickAllLinks</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 300.000
   (Session info: chrome=91.0.4472.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-P8L6JL1&apos;, ip: &apos;192.168.231.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 23e74b60afdf3d702d19b9ad3a593bdb
-*** Element info: {Using=xpath, value=//*[@id=&apos;super-container&apos;]/div[2]/header/div[2]/div/div/div/div[1]/div/a[1]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33e11ce30144835d86ae132acf1fd24c
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at bms.selenium.Test_Execution.moviesData(Test_Execution.java:756)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="saveEventData">
-                  </a> <!-- saveEventData -->
-                  <span class="method-name">saveEventData</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;app&apos;]/div/div/div/div/div[2]/div/header/div/div/div[1]/div[1]/div[1]/h1&quot;}
-  (Session info: chrome=91.0.4472.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-P8L6JL1&apos;, ip: &apos;192.168.231.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 23e74b60afdf3d702d19b9ad3a593bdb
-*** Element info: {Using=xpath, value=//*[@id=&apos;app&apos;]/div/div/div/div/div[2]/div/header/div/div/div[1]/div[1]/div[1]/h1}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at bms.selenium.Test_Execution.saveEventData(Test_Execution.java:262)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at bms.selenium.sportsNameCollectionTest.clickAllLinks(sportsNameCollectionTest.java:128)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -248,6 +215,13 @@ Session ID: 23e74b60afdf3d702d19b9ad3a593bdb
               <span class="class-name">bms.selenium.Test_Execution</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="moviesData">
+                  </a> <!-- moviesData -->
+                  <span class="method-name">moviesData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)">
@@ -350,6 +324,11 @@ Session ID: 23e74b60afdf3d702d19b9ad3a593bdb
       &lt;class name=&quot;bms.selenium.Test_Execution&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;SportsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bms.selenium.sportsNameCollectionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SportsTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -362,6 +341,9 @@ Session ID: 23e74b60afdf3d702d19b9ad3a593bdb
             <ul>
               <li>
                 <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SportsTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -389,54 +371,54 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'saveEventData')
-data.setCell(0, 2, 'bms.selenium.Test_Execution')
-data.setCell(0, 3, 80638);
+data.setCell(0, 1, 'clickAllLinks')
+data.setCell(0, 2, 'bms.selenium.sportsNameCollectionTest')
+data.setCell(0, 3, 336604);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'moviesData')
+data.setCell(1, 1, 'switchWindow')
 data.setCell(1, 2, 'bms.selenium.Test_Execution')
-data.setCell(1, 3, 30020);
+data.setCell(1, 3, 12175);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'switchWindow')
+data.setCell(2, 1, 'openBrowser')
 data.setCell(2, 2, 'bms.selenium.Test_Execution')
-data.setCell(2, 3, 9223);
+data.setCell(2, 3, 11264);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'sports')
 data.setCell(3, 2, 'bms.selenium.Test_Execution')
-data.setCell(3, 3, 6989);
+data.setCell(3, 3, 5954);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'openBrowser')
+data.setCell(4, 1, 'weekendSelector')
 data.setCell(4, 2, 'bms.selenium.Test_Execution')
-data.setCell(4, 3, 6240);
+data.setCell(4, 3, 4653);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'weekendSelector')
+data.setCell(5, 1, 'moviesData')
 data.setCell(5, 2, 'bms.selenium.Test_Execution')
-data.setCell(5, 3, 4781);
+data.setCell(5, 3, 3532);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'signUp')
 data.setCell(6, 2, 'bms.selenium.Test_Execution')
-data.setCell(6, 3, 3367);
+data.setCell(6, 3, 1695);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'signUpNCR')
 data.setCell(7, 2, 'bms.selenium.Test_Execution')
-data.setCell(7, 3, 1943);
+data.setCell(7, 3, 1148);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'signUpUsingGoogle')
+data.setCell(8, 1, 'rangeSelector')
 data.setCell(8, 2, 'bms.selenium.Test_Execution')
-data.setCell(8, 3, 910);
+data.setCell(8, 3, 917);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'rangeSelector')
+data.setCell(9, 1, 'signUpUsingGoogle')
 data.setCell(9, 2, 'bms.selenium.Test_Execution')
-data.setCell(9, 3, 877);
+data.setCell(9, 3, 897);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'priceSelector')
 data.setCell(10, 2, 'bms.selenium.Test_Execution')
-data.setCell(10, 3, 714);
+data.setCell(10, 3, 633);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -469,56 +451,65 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">openBrowser(https://in.bookmyshow.com/, \\Screenshots\\test_1.png)</span>
-                <span class="method-start">8328 ms</span>
+                <span class="method-start">8131 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">signUpNCR(\\Screenshots\\test_2.png, \\Screenshots\\test_3.png)</span>
-                <span class="method-start">14570 ms</span>
+                <span class="method-start">19396 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">signUp(\\Screenshots\\test_4.png)</span>
-                <span class="method-start">16514 ms</span>
+                <span class="method-start">20545 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">signUpUsingGoogle(\\Screenshots\\test_5.png)</span>
-                <span class="method-start">19881 ms</span>
+                <span class="method-start">22242 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">switchWindow(\\Screenshots\\test_6.png)</span>
-                <span class="method-start">20792 ms</span>
+                <span class="method-start">23140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">moviesData</span>
+                <span class="method-start">35317 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sports(\\Screenshots\\test_7.png)</span>
-                <span class="method-start">30015 ms</span>
+                <span class="method-start">38851 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">weekendSelector(\\Screenshots\\test_8.png)</span>
-                <span class="method-start">37005 ms</span>
+                <span class="method-start">44806 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">priceSelector(\\Screenshots\\test_9.png)</span>
-                <span class="method-start">41786 ms</span>
+                <span class="method-start">49460 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">rangeSelector(\\Screenshots\\test_10.png)</span>
-                <span class="method-start">42501 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">saveEventData</span>
-                <span class="method-start">43379 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">moviesData</span>
-                <span class="method-start">124031 ms</span>
+                <span class="method-start">50094 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">154051 ms</span>
+                <span class="method-start">51011 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bms.selenium.sportsNameCollectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickAllLinks</span>
+                <span class="method-start">55311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">391932 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

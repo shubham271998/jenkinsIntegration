@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="11" passed="9">
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="155845" started-at="2021-06-23T07:45:25Z" finished-at="2021-06-23T07:48:01Z">
+  <suite name="Suite" duration-ms="393103" started-at="2021-06-24T07:45:30Z" finished-at="2021-06-24T07:52:03Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="155845" started-at="2021-06-23T07:45:25Z" finished-at="2021-06-23T07:48:01Z">
+    <test name="Test" duration-ms="52100" started-at="2021-06-24T07:45:30Z" finished-at="2021-06-24T07:46:22Z">
       <class name="bms.selenium.Test_Execution">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:bms.selenium.Test_Execution@30b7c004]" name="setup" is-config="true" duration-ms="8313" started-at="2021-06-23T07:45:25Z" finished-at="2021-06-23T07:45:34Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:bms.selenium.Test_Execution@30b7c004]" name="setup" is-config="true" duration-ms="8117" started-at="2021-06-24T07:45:30Z" finished-at="2021-06-24T07:45:39Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:bms.selenium.Test_Execution@30b7c004]" name="openBrowser" duration-ms="6240" started-at="2021-06-23T07:45:34Z" finished-at="2021-06-23T07:45:40Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:bms.selenium.Test_Execution@30b7c004]" name="openBrowser" duration-ms="11264" started-at="2021-06-24T07:45:39Z" finished-at="2021-06-24T07:45:50Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="signUpNCR(java.lang.String, java.lang.String)[pri:1, instance:bms.selenium.Test_Execution@30b7c004]" name="signUpNCR" duration-ms="1943" started-at="2021-06-23T07:45:40Z" finished-at="2021-06-23T07:45:42Z">
+        <test-method status="PASS" signature="signUpNCR(java.lang.String, java.lang.String)[pri:1, instance:bms.selenium.Test_Execution@30b7c004]" name="signUpNCR" duration-ms="1148" started-at="2021-06-24T07:45:50Z" finished-at="2021-06-24T07:45:51Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpNCR -->
-        <test-method status="PASS" signature="signUp(java.lang.String)[pri:2, instance:bms.selenium.Test_Execution@30b7c004]" name="signUp" duration-ms="3367" started-at="2021-06-23T07:45:42Z" finished-at="2021-06-23T07:45:45Z">
+        <test-method status="PASS" signature="signUp(java.lang.String)[pri:2, instance:bms.selenium.Test_Execution@30b7c004]" name="signUp" duration-ms="1695" started-at="2021-06-24T07:45:51Z" finished-at="2021-06-24T07:45:53Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="signUpUsingGoogle(java.lang.String)[pri:3, instance:bms.selenium.Test_Execution@30b7c004]" name="signUpUsingGoogle" duration-ms="910" started-at="2021-06-23T07:45:45Z" finished-at="2021-06-23T07:45:46Z">
+        <test-method status="PASS" signature="signUpUsingGoogle(java.lang.String)[pri:3, instance:bms.selenium.Test_Execution@30b7c004]" name="signUpUsingGoogle" duration-ms="897" started-at="2021-06-24T07:45:53Z" finished-at="2021-06-24T07:45:54Z">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpUsingGoogle -->
-        <test-method status="PASS" signature="switchWindow(java.lang.String)[pri:4, instance:bms.selenium.Test_Execution@30b7c004]" name="switchWindow" duration-ms="9223" started-at="2021-06-23T07:45:46Z" finished-at="2021-06-23T07:45:55Z">
+        <test-method status="PASS" signature="switchWindow(java.lang.String)[pri:4, instance:bms.selenium.Test_Execution@30b7c004]" name="switchWindow" duration-ms="12175" started-at="2021-06-24T07:45:54Z" finished-at="2021-06-24T07:46:06Z">
           <params>
             <param index="0">
               <value>
@@ -88,7 +88,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchWindow -->
-        <test-method status="PASS" signature="sports(java.lang.String)[pri:5, instance:bms.selenium.Test_Execution@30b7c004]" name="sports" duration-ms="6989" started-at="2021-06-23T07:45:55Z" finished-at="2021-06-23T07:46:02Z">
+        <test-method status="PASS" signature="moviesData()[pri:5, instance:bms.selenium.Test_Execution@30b7c004]" name="moviesData" duration-ms="3532" started-at="2021-06-24T07:46:06Z" finished-at="2021-06-24T07:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moviesData -->
+        <test-method status="PASS" signature="sports(java.lang.String)[pri:6, instance:bms.selenium.Test_Execution@30b7c004]" name="sports" duration-ms="5954" started-at="2021-06-24T07:46:09Z" finished-at="2021-06-24T07:46:15Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sports -->
-        <test-method status="PASS" signature="weekendSelector(java.lang.String)[pri:6, instance:bms.selenium.Test_Execution@30b7c004]" name="weekendSelector" duration-ms="4781" started-at="2021-06-23T07:46:02Z" finished-at="2021-06-23T07:46:07Z">
+        <test-method status="PASS" signature="weekendSelector(java.lang.String)[pri:7, instance:bms.selenium.Test_Execution@30b7c004]" name="weekendSelector" duration-ms="4653" started-at="2021-06-24T07:46:15Z" finished-at="2021-06-24T07:46:20Z">
           <params>
             <param index="0">
               <value>
@@ -110,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- weekendSelector -->
-        <test-method status="PASS" signature="priceSelector(java.lang.String)[pri:7, instance:bms.selenium.Test_Execution@30b7c004]" name="priceSelector" duration-ms="714" started-at="2021-06-23T07:46:07Z" finished-at="2021-06-23T07:46:08Z">
+        <test-method status="PASS" signature="priceSelector(java.lang.String)[pri:8, instance:bms.selenium.Test_Execution@30b7c004]" name="priceSelector" duration-ms="633" started-at="2021-06-24T07:46:20Z" finished-at="2021-06-24T07:46:20Z">
           <params>
             <param index="0">
               <value>
@@ -121,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceSelector -->
-        <test-method status="PASS" signature="rangeSelector(java.lang.String)[pri:8, instance:bms.selenium.Test_Execution@30b7c004]" name="rangeSelector" duration-ms="877" started-at="2021-06-23T07:46:08Z" finished-at="2021-06-23T07:46:09Z">
+        <test-method status="PASS" signature="rangeSelector(java.lang.String)[pri:9, instance:bms.selenium.Test_Execution@30b7c004]" name="rangeSelector" duration-ms="917" started-at="2021-06-24T07:46:20Z" finished-at="2021-06-24T07:46:21Z">
           <params>
             <param index="0">
               <value>
@@ -132,157 +136,90 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rangeSelector -->
-        <test-method status="FAIL" signature="saveEventData()[pri:9, instance:bms.selenium.Test_Execution@30b7c004]" name="saveEventData" duration-ms="80638" started-at="2021-06-23T07:46:09Z" finished-at="2021-06-23T07:47:29Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='app']/div/div/div/div/div[2]/div/header/div/div/div[1]/div[1]/div[1]/h1"}
-  (Session info: chrome=91.0.4472.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-P8L6JL1', ip: '192.168.231.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 23e74b60afdf3d702d19b9ad3a593bdb
-*** Element info: {Using=xpath, value=//*[@id='app']/div/div/div/div/div[2]/div/header/div/div/div[1]/div[1]/div[1]/h1}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='app']/div/div/div/div/div[2]/div/header/div/div/div[1]/div[1]/div[1]/h1"}
-  (Session info: chrome=91.0.4472.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-P8L6JL1', ip: '192.168.231.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 23e74b60afdf3d702d19b9ad3a593bdb
-*** Element info: {Using=xpath, value=//*[@id='app']/div/div/div/div/div[2]/div/header/div/div/div[1]/div[1]/div[1]/h1}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at bms.selenium.Test_Execution.saveEventData(Test_Execution.java:262)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- saveEventData -->
-        <test-method status="FAIL" signature="moviesData()[pri:10, instance:bms.selenium.Test_Execution@30b7c004]" name="moviesData" duration-ms="30020" started-at="2021-06-23T07:47:29Z" finished-at="2021-06-23T07:47:59Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='super-container']/div[2]/header/div[2]/div/div/div/div[1]/div/a[1]"}
-  (Session info: chrome=91.0.4472.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-P8L6JL1', ip: '192.168.231.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 23e74b60afdf3d702d19b9ad3a593bdb
-*** Element info: {Using=xpath, value=//*[@id='super-container']/div[2]/header/div[2]/div/div/div/div[1]/div/a[1]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='super-container']/div[2]/header/div[2]/div/div/div/div[1]/div/a[1]"}
-  (Session info: chrome=91.0.4472.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-P8L6JL1', ip: '192.168.231.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 23e74b60afdf3d702d19b9ad3a593bdb
-*** Element info: {Using=xpath, value=//*[@id='super-container']/div[2]/header/div[2]/div/div/div/div[1]/div/a[1]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at bms.selenium.Test_Execution.moviesData(Test_Execution.java:756)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- moviesData -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:bms.selenium.Test_Execution@30b7c004]" name="closeDriver" is-config="true" duration-ms="1793" started-at="2021-06-23T07:47:59Z" finished-at="2021-06-23T07:48:01Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:bms.selenium.Test_Execution@30b7c004]" name="closeDriver" is-config="true" duration-ms="1088" started-at="2021-06-24T07:46:21Z" finished-at="2021-06-24T07:46:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- bms.selenium.Test_Execution -->
     </test> <!-- Test -->
+    <test name="SportsTest" duration-ms="340925" started-at="2021-06-24T07:46:23Z" finished-at="2021-06-24T07:52:03Z">
+      <class name="bms.selenium.sportsNameCollectionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:bms.selenium.sportsNameCollectionTest@5276e6b0]" name="setup" is-config="true" duration-ms="3133" started-at="2021-06-24T07:46:23Z" finished-at="2021-06-24T07:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="clickAllLinks()[pri:0, instance:bms.selenium.sportsNameCollectionTest@5276e6b0]" name="clickAllLinks" duration-ms="336604" started-at="2021-06-24T07:46:26Z" finished-at="2021-06-24T07:52:02Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P8L6JL1', ip: '192.168.231.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33e11ce30144835d86ae132acf1fd24c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P8L6JL1', ip: '192.168.231.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\srao9\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33e11ce30144835d86ae132acf1fd24c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at bms.selenium.sportsNameCollectionTest.clickAllLinks(sportsNameCollectionTest.java:128)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAllLinks -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:bms.selenium.sportsNameCollectionTest@5276e6b0]" name="closeDriver" is-config="true" duration-ms="1170" started-at="2021-06-24T07:52:02Z" finished-at="2021-06-24T07:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- bms.selenium.sportsNameCollectionTest -->
+    </test> <!-- SportsTest -->
   </suite> <!-- Suite -->
 </testng-results>

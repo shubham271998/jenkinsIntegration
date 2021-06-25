@@ -14,16 +14,15 @@
   <parameter name="Path4" value="\\Screenshots\\test_4.png"/>
   <parameter name="Path3" value="\\Screenshots\\test_3.png"/>
   <parameter name="Path0" value="\\Screenshots\\test_0.png"/>
-  <test thread-count="5" verbose="0" name="Test(failed)">
+  <test thread-count="5" verbose="0" name="SportsTest(failed)">
     <classes>
-      <class name="bms.selenium.Test_Execution">
+      <class name="bms.selenium.sportsNameCollectionTest">
         <methods>
-          <include name="setup"/>
-          <include name="saveEventData"/>
-          <include name="moviesData"/>
+          <include name="clickAllLinks"/>
           <include name="closeDriver"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- bms.selenium.Test_Execution -->
+      </class> <!-- bms.selenium.sportsNameCollectionTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- SportsTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
